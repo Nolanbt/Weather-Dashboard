@@ -1,0 +1,14 @@
+h1 {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    margin: 0 25px;
+}
+
+input {
+    width: 75%;
+}
