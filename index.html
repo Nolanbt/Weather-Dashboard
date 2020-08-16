@@ -21,18 +21,20 @@
         <div class="row">
             <form class="col-3 bg-info float-left rounded">
                 <h5>Search for a City:</h5>
-                <input class="rounded" type="text" placeholder="Search City">
-                <button type="button" class="btn btn-primary float-right"><i class="fas fa-search"></i></button>
+                <input id="newCity" class="rounded" type="text" placeholder="Search City">
+                <!-- <button id="searchButton" type="button" class="btn btn-primary float-right"><i class="fas fa-search"></i></button> -->
+                <input id="searchButton" class="btn btn-primary" type="submit" value="Search">
+                <div id="searchedCities"></div>
             </form>
             <div class="col-8">
-                <div class="row p-5 border border-secondary rounded">
-                    <h3 id="currentCity">Houston</h3>
-                    <p>Temp</p>
-                    <p>Humidity</p>
-                    <p>Wind Speed</p>
-                    <p>UV Index</p>
+                <div class="p-5 border border-secondary rounded">
+                    <h3 id="currentCity">City</h3>
+                    <p id="temp">Temp</p>
+                    <p id="humidity">Humidity</p>
+                    <p id="windSpeed">Wind Speed</p>
+                    <p id="uvIndex">UV Index</p>
                 </div>
-                <div class="row">5 Day Forecast</div>
+                <div">5 Day Forecast</div>
             </div>
         </div>
     </main>
