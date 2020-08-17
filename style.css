@@ -7,6 +7,7 @@ h1 {
 
 form {
     margin: 0 25px;
+    background-color: lightsteelblue;
 }
 
 input {
@@ -14,8 +15,15 @@ input {
 }
 
 .addedCity {
-    background-color: rgb(160, 255, 82);
+    background-color: lightgray;
     color: black;
     margin: 5px;
-    float: left;
+    border: thin black solid;
+    text-align: center;
+    list-style: none;
 }
+
+.addedCity:hover {
+    background-color: lightseagreen;
+}
+

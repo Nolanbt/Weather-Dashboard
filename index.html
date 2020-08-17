@@ -19,12 +19,12 @@
     </header>
     <main class="container">
         <div class="row">
-            <form class="col-3 bg-info float-left rounded">
+            <form class="col-3 float-left rounded border border-secondary">
                 <h5>Search for a City:</h5>
                 <input id="newCity" class="rounded" type="text" placeholder="Search City">
                 <!-- <button id="searchButton" type="button" class="btn btn-primary float-right"><i class="fas fa-search"></i></button> -->
                 <input id="searchButton" class="btn btn-primary" type="submit" value="Search">
-                <div id="searchedCities"></div>
+                <ul id="searchedCities" class="list-group list-group-flush"></ul>
             </form>
             <div class="col-8">
                 <div class="p-5 border border-secondary rounded">
@@ -34,7 +34,9 @@
                     <p id="windSpeed">Wind Speed</p>
                     <p id="uvIndex">UV Index</p>
                 </div>
-                <div">5 Day Forecast</div>
+                <div id="forecast">
+                    <h6>5 Day Forecast:</h6>
+                </div>
             </div>
         </div>
     </main>
